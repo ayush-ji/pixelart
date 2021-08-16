@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="index.css">
 </head>
-<body style="background-color: gray;">
+<body name="bodyx" class="" style="background-color:azure;"ondragstart="return false;" ondrop="return false;">
+
+    <div class="w3-bar w3-margin-bottom w3-black w3-text-gray">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      </div>
+
     <div id="color-sel">
         <div class="C color-dev-1 " style="background-color: red"></div>
         <div class="C color-dev-2 " style="background-color: blue"></div>
@@ -38,19 +47,19 @@
         <div class="C color-dev-27" style="background-color: white"></div>
         <div class="C color-dev-28" style="background-color: black"></div>
     </div>
-    <div id="game"></div>
+    <div id="game" class="w3-card w3-hover-shadow"></div>
     <div id="tools">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="T PENCIL"></div>
+        <div class="T ERASER"></div>
+        <div class="T PAINT"></div>
+        <div class="T ONEPIX"></div>
+        <!-- <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div> -->
     </div>
+    <script src="src/Tools.js"></script>
     <script src="gridMaker.js"></script>
     <script src="tools.js"></script>
 </body>
 </html>
-

@@ -17,11 +17,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 60px;
-    background-color:green;    
+    background-color:green;  
+    margin-left: 10px;  
 }
 
 #tools {
-    height: 120px;
+    margin-right: 10px;
+    height: 60px;
 }
 
 #color-sel {
