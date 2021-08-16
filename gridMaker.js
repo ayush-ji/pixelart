@@ -1,5 +1,6 @@
 var game = document.getElementById('game');
 var colorPallet = document.getElementById('color-sel');
+var gamePix = document.querySelectorAll('.E');
 
 var gridSize = {
     large  : {g : game , n : 3600 , cs : 10},
@@ -27,8 +28,10 @@ function mkGrid(ob) {
     }
 }
 
+
+
 //getSomeDivs(game , 36, 6);
-mkGrid(gridSize.small);
+mkGrid(gridSize.large);
 
 // mkGrid({
 //         g : colorPallet ,

@@ -2,20 +2,26 @@ class Tools {
     #selectedTool = "NOTHING SELECTED";
     #tools = {
         "PENCIL" : {
-            u : (element) => {
-
+            utility : (element) => {
                 element.style.backgroundColor = selectedColor;
             },
         },
         "ERASER" : {
+            utility : (element) => {
+                console.log("helre");
+                element.style.backgroundColor = "white";
+            },
         },
-        "PAINT"  : {},
+        "PAINT"  : {
+            utility : (element) => {
+
+            }
+        },
         "ONEPIX" : {},
-        "NOTHING SELECTED" : "SSSS",
+        "NOTHING SELECTED" : "Suss",
     }
 
     getUtility = function () {
-        console.log(this.#tools[this.#selectedTool].u)
         return this.#tools[this.#selectedTool];
     }
 
@@ -25,9 +31,5 @@ class Tools {
     
      getTool = function () {
         return this.#selectedTool
-    }
-
-    toolUtility = function () {
-        
     }
 }
